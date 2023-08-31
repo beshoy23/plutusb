@@ -11,7 +11,7 @@ module Plutus
   #
   # @author Michael Bulat
   class EntriesController <  Plutus::ApplicationController
-    unloadable if respond_to?(:unloadable)
+    #unloadable if respond_to?(:unloadable)
     # @example
     #   GET /entries
     #   GET /entries.xml
